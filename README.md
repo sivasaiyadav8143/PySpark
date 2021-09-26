@@ -17,4 +17,11 @@ Pyspark is alternative to mapreduce in Hadoop.<br>
 4. It also is used to process real-time data using Streaming and Kafka.
 # Architecture
 Apache Spark works in a master-slave architecture where the master is called “Driver” and slaves are called “Workers”. When you run a Spark application, Spark Driver creates a context that is an entry point to your application,
-and all operations (transformations and actions) are executed on worker nodes, and the resources are managed by Cluster Manager.
+and all operations (transformations and actions) are executed on worker nodes, and the resources are managed by Cluster Manager.<br>
+
+![Reference-style](Images/spark-cluster.png)<br>
+Reference : https://spark.apache.org/
+
+# Ecosystem
+![Reference-style](Images/spark-stack.png)<br>
+Reference : https://spark.apache.org/
